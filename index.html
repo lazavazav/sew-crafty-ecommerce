@@ -1,0 +1,252 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sew Crafty ecommerce site</title>
+  <link rel="stylesheet" href="mainsew.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Merienda" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  </head>
+  <body>
+ 
+  <header>
+    <div class="background">
+      <div class="transbox">
+    <h1 id="title" class="w3-animate-fading">Sew Crafty</h1>
+        <ul id="navigation">
+         
+               <li class="nav"><a href="#Browse" id="browse">Browse</li>
+                   <li class="nav"><a href="#Custom"id="customOrder">Custom Order</li>
+              <li class="nav"><a href="#Reviews" id="reviews">Reviews</li>
+        </ul>
+ </div>
+  </header>
+<!--   end of header -->  
+    <div id="content">
+      
+    <div id="browsepg">
+      <div id="wrap">
+  
+    
+    <div id="cart">
+        <i class="fas fa-shopping-cart"></i>
+    <ul id="show-cart">
+    </ul>
+     
+    <div>
+      Total Cart $<span id="total-cart"></span>
+    </div>
+      <a href="#"><button id="checkout">Checkout</button></a>
+   </div>
+      
+  <ul class= "productDisplay">
+      <li class="products">
+      <a class="add-to-cart" href="#" data-name="Scalloped Blouse" data-price="28"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/blouse3.jpg" height="200" width="200"><span class="prodLabel">Scalloped Blouse $28</span></a>
+         </li>
+    <li class="products">
+       <a class="add-to-cart" href="#" data-name="Peach Blouse" data-price="22"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/blouse2.jpg" height="200" width="200"><span class="prodLabel">Peach Blouse $22</span></a>
+         </li>
+    
+    
+        <li class="products">
+          <a class="add-to-cart" href="#" data-name="Blue Blouse" data-price="26"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/blouse4.jpg" height="200" width="200"><span class="prodLabel">Blue Blouse $26 </span></a>
+      </li>
+    
+    <li class="products">
+       <a class="add-to-cart" href="#" data-name="Geometric Purse" data-price="25"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/bag1.jpg" height="200" width="200"><span class="prodLabel">Geometric Purse $25</span></a>
+            </li>
+
+    <li class="products">
+      <a class="add-to-cart" href="#" data-name="Purple Chevron Purse" data-price="24"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/bag2.jpg" height="200" width="200"><span class="prodLabel">Purple Chevron Purse $24</span></a>
+            </li>
+
+        <li class="products">
+          <a class="add-to-cart" href="#" data-name="Pink Rose Purse" data-price="21"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/bag3.jpg" height="200" width="200"><span class="prodLabel">Pink Rose Purse $21</span></a>
+         </li>
+    
+        <li class="products">
+          <a class="add-to-cart" href="#" data-name="Dog Wind Breaker" data-price="21"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/dog1.jpg" height="200" width="200"><span class="prodLabel">Dog Wind Breaker $24  </span></a>
+       </li>
+    
+    <li class="products">
+      <a class="add-to-cart" href="#" data-name="Purple Dog Sweater" data-price="21"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/dog2.jpg" height="200" width="200"><span class="prodLabel">Purple Dog Sweater $23 </span></a>
+     </li>
+    
+    <li class="products">
+       <a class="add-to-cart" href="#" data-name="Blue & White Stripes" data-price="21"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/dog4.jpg" height="200" width="200"><span class="prodLabel">Blue & White Stripes $21 </span></a>
+    </li>
+      </ul>
+    </div>
+      </div>
+
+        <div id="customorderpg">
+      <h2>The sky's the limit as far as custom orders go. Just tell me what you have in mind by using the below contact form and we'll go from there.</h2>
+<form action="my-handling-form-page" method="post">
+  <div>
+    <h2> Contact Me</H2
+      </div>
+      <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_mail">
+  </div>
+  <div> <label for ="msg">Message:</label>
+    <textarea id= "msg" name="user_message"></textarea>
+  </div>
+  <div>
+    <button type="button" class="btn">Send</button>
+  </div>
+  
+</form>
+   
+      </div>  
+    </div>
+    
+    <div id="reviewspg">
+      <h5>"I was so pleased with my new purse from Sew Crafty. <br>It looked even better in real life. The details were so much nicer up close and the bag has held up so well."<br> Thanks, Maya.</h5>
+      <h4>"My dog looks so cute in her outfit. <br>I bought the blue and white striped one"<br> Michelle, Oregon</h4>
+      <h3>"What a great value and free shipping too.<br> I bought 3 blouses and they all fit beautifully"<br> Sarah from Conneticut.</h3>
+      <p>"I bought your kitchen towels for a shower gift and they were a big hit.<br>I love the trim details"<br> Thank you. Tara from Ohio</p>    
+    </div>
+    
+      </div>
+<!--   end of content section -->
+
+<script>
+	$(document).ready(function() {
+  
+ $("#browse").click(function() { 
+   $("#browsepg").slideDown("slow"); 
+   $("#customorderpg").slideUp("slow");
+   $("#reviewspg").slideUp("slow");
+ });
+  
+
+ $("#customOrder").click(function() { 
+   $("#customorderpg").slideDown("slow");
+   $("#reviewspg").slideUp("slow");
+    $("#browsepg").slideUp("slow"); 
+
+ });
+  
+ $("#reviews").click(function() { 
+   $("#reviewspg").slideDown("slow");  
+   $("#browsepg").slideUp("slow");               $("#customorderpg").slideUp("slow");
+   });
+});
+
+ $(".add-to-cart").click(function(event) {
+  event.preventDefault();
+  var name = $(this).attr("data-name");
+  var price = Number($(this).attr("data-price"));
+  addItemToCart(name, price, 1);
+  displayCart();
+    });
+
+function displayCart() {
+  var cartArray = listCart();
+  var output = "";
+  for (var i in cartArray) {
+    output += "<li>"+cartArray[i].name
+      +" "+cartArray[i].count
+      +" x "+cartArray[i].price
+      +" = "+cartArray[i].total
+      +" <button class='delete-item' data-name='"+cartArray[i].name+"'>delete</button>"
+      +"</li>";
+  }
+    $("#show-cart").html(output);
+    $("#total-cart").html(totalCart());
+  }
+
+
+$("#show-cart").on("click", ".delete-item", function(event) {
+   var name = $(this).attr("data-name");
+  removeItemFromCart(name);
+  displayCart();
+});
+                       
+                       
+var cart = [];
+var Item = function(name, price, count) {
+  this.name = name;
+  this.price = price;
+  this.count = count;
+}
+
+function addItemToCart (name, price, count) {
+for (var i in cart) {
+    if(cart[i].name === name) {
+       cart[i].count += count;
+      return;
+       }
+   }
+      var item = new Item(name, price, count);
+      cart.push(item);
+     
+ }
+
+function removeItemFromCart(name) {
+  for (var i in cart) {
+    if(cart[i].name === name) {
+      cart[i].count --;
+      if(cart[i].count === 0) {
+        cart.splice(i, 1);
+      }
+      break;
+    }
+  } 
+}
+
+
+function countCart () {
+  var totalCount = 0;
+  for (var i in cart) {
+    totalCount += cart[i].count;
+  }
+  return totalCount;
+}
+
+function totalCart() {
+  var totalCost = 0;
+  for (var i in cart) {
+    totalCost += cart[i].price * cart[i].count;
+  }
+  return totalCost;
+}
+
+
+function listCart() {
+  var cartCopy = [];
+  for (var i in cart) {
+    var item = cart[i];
+    var itemCopy = {};
+    for (var p in item) {
+    itemCopy[p] = item[p]; }
+    itemCopy.total = item.price * item.count;
+    cartCopy.push(itemCopy);
+    }
+  return cartCopy;
+}
+
+function saveCart () {
+  localStorage.setItem("shopping cart", JSON.stringify(cart));
+}
+
+
+
+function loadCart () {
+  cart = JSON.parse(localStorage.getItem("shopping cart"));
+}
+
+</script>
+</body>
